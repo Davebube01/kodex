@@ -10,10 +10,10 @@ import {
 } from "lucide-react";
 import heroBg from "../../assets/backgrnd.svg";
 import { Link } from "react-router-dom";
-import web from "@/assets/img/web.png"
-import prod from "@/assets/img/prod-design.png"
-import mobile from "@/assets/img/mobile.png"
-import data from "@/assets/img/data-analysis.png"
+import web from "@/assets/img/web.png";
+import prod from "@/assets/img/prod-design.png";
+import mobile from "@/assets/img/mobile.png";
+import data from "@/assets/img/data-analysis.png";
 
 // Mock Data for Popular Programs (reusing logic from Home but specific content)
 const popularPrograms = [
@@ -49,7 +49,7 @@ const popularPrograms = [
   },
   {
     title: "Data Analysis (Power BI, Excel, Python)",
-    image:data,
+    image: data,
     icon: BarChart,
     duration: "9 Weeks",
     type: "Multiple Options",
@@ -210,7 +210,7 @@ export default function CoursesHome() {
       </section>
 
       {/* CTA - using reusable component logic if extracted, or inline for now */}
-      <section className="py-10 rounded-lg  text-white mb-10 w-[85%] mx-auto">
+      <section className="py-10 rounded-lg  text-white mb-10 w-[95%] md:w-[85%] mx-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto bg-linear-to-r from-slate-800 to-slate-900 p-12 rounded-3xl border border-slate-700 shadow-2xl relative overflow-hidden">
             <div className="relative z-10">

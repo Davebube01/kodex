@@ -7,7 +7,6 @@ import {
   FacebookIcon,
   Instagram,
   LinkedinIcon,
-  XIcon,
   TwitterIcon,
 } from "lucide-react";
 

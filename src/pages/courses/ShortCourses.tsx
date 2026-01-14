@@ -2,12 +2,12 @@ import { useState } from "react";
 import heroBg from "../../assets/backgrnd.svg";
 import { Link } from "react-router-dom";
 
-import web from "@/assets/img/web.png"
-import prod from "@/assets/img/prod-design.png"
-import mobile from "@/assets/img/mobile.png"
-import data from "@/assets/img/data-analysis.png"
-import digital from "@/assets/img/digital-marketing.png"
-import project from "@/assets/img/product-management.png"
+import web from "@/assets/img/web.png";
+import prod from "@/assets/img/prod-design.png";
+import mobile from "@/assets/img/mobile.png";
+import data from "@/assets/img/data-analysis.png";
+import digital from "@/assets/img/digital-marketing.png";
+import project from "@/assets/img/product-management.png";
 
 // Mock Data for Short Courses
 const shortCourses = [
@@ -204,25 +204,24 @@ export default function ShortCourses() {
       </section>
 
       {/* Bottom CTA */}
-      
 
-        <section className="py-10 rounded-lg  text-white mb-10 w-[85%] mx-auto">
+      <section className="py-10 rounded-lg  text-white mb-10 w-[95%] md:w-[85%] mx-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto bg-linear-to-r from-slate-800 to-slate-900 p-12 rounded-3xl border border-slate-700 shadow-2xl relative overflow-hidden">
             <div className="relative z-10">
               <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready for a Deeper Dive?
-          </h2>
-          <p className="text-slate-400 max-w-2xl mx-auto mb-8 text-lg">
-            Explore our comprehensive Diploma Programs for advanced, in-depth
-            learning and career acceleration.
-          </p>
-          <Link
-            to="/courses/diploma"
-            className="px-8 py-3 bg-orange-500 text-white font-bold rounded-xl text-lg hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20 inline-block"
-          >
-            Explore Diploma Courses
-          </Link>
+                Ready for a Deeper Dive?
+              </h2>
+              <p className="text-slate-400 max-w-2xl mx-auto mb-8 text-lg">
+                Explore our comprehensive Diploma Programs for advanced,
+                in-depth learning and career acceleration.
+              </p>
+              <Link
+                to="/courses/diploma"
+                className="px-8 py-3 bg-orange-500 text-white font-bold rounded-xl text-lg hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20 inline-block"
+              >
+                Explore Diploma Courses
+              </Link>
             </div>
           </div>
         </div>

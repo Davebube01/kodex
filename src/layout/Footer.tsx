@@ -1,4 +1,4 @@
-import { Globe, Locate, Mail, MapPin, Phone } from "lucide-react";
+import { Globe, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
