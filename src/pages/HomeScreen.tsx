@@ -79,9 +79,9 @@ export default function HomeScreen() {
           <img
             src={heroBg}
             alt="Background"
-            className="w-full h-full object-cover opacity-100"
+            className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-slate-50 to-transparent"></div>
+          <div className="absolute inset-0 bg-linear-to-b bg-transparent "></div>
         </div>
 
         <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-5xl">
